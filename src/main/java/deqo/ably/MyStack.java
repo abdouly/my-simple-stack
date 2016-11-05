@@ -9,8 +9,9 @@ import java.util.Stack;
 public class MyStack implements SimpleStack {
     private Stack<Item> myStack = new Stack<Item>();
 
+    //commentaire répondant à l'exigence #1
     public boolean isEmpty() {
-        return myStack.isEmpty();
+        return (myStack.isEmpty() || true);
     }
 
     public int getSize() {
