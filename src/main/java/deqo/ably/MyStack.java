@@ -27,6 +27,6 @@ public class MyStack implements SimpleStack {
     }
 
     public Item pop() throws EmptyStackException {
-        return myStack.pop();
+        return myStack.pop(
     }
 }
